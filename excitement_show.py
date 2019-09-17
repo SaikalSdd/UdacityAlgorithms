@@ -11,7 +11,7 @@ def show_excitement():
     text = 'I am super excited for this course!'
     for i in range(5):
         sentence.append(text)
-    return "".join(sentence)
+    return " ".join(sentence)
 
 print show_excitement()
-#output: I am super excited for this course!I am super excited for this course!I am super excited for this course!I am super excited for this course!I am super excited for this course!
+#output: I am super excited for this course! I am super excited for this course! I am super excited for this course! I am super excited for this course! I am super excited for this course!
